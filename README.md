@@ -1,6 +1,6 @@
 # Description
 
-Its a concurrent priotity list with 10 priotities and random tasks.
+Its a concurrent priotity list with 10 priotities-ranks and random tasks.
 
 ## Commands
 
@@ -19,6 +19,28 @@ Its a concurrent priotity list with 10 priotities and random tasks.
 * ctl - Clear the whole task list 
 * exit - Exit the program 
 
+## How it works
+
+![alt text](https://raw.githubusercontent.com/Ritzga/concurrent-priority-list/master/doc/work.jpg "How it works")
+
+## Some values
+
+### With a 4 core cpu and 32 threads
+
+![picture of distribution of duties on a 4 core cpu](https://raw.githubusercontent.com/Ritzga/concurrent-priority-list/master/doc/duties_done_4.jpg "4 core CPU")
+
+### With a 12 core cpu and 32 threads
+
+![picture of distribution of duties on a 12 core cpu](https://raw.githubusercontent.com/Ritzga/concurrent-priority-list/master/doc/duties_done_12.jpg "12 core CPU")
+
+### Posibilities of every priority
+
+![picture of posibilities of every priority](https://raw.githubusercontent.com/Ritzga/concurrent-priority-list/master/doc/probabilities.jpg "Posibilities of every priority")
+
+### Posibilities of every priority in test
+
+![picture of posibilities of every priority in test](https://raw.githubusercontent.com/Ritzga/concurrent-priority-list/master/doc/probability_duties.jpg "Test with more then 60k duties")
+
 ## Documentation
-⋅⋅*[ConcurrentQueue](https://referencesource.microsoft.com/#mscorlib/System/Collections/Concurrent/ConcurrentQueue.cs)
-⋅⋅*[ConcurrentDictionary](https://referencesource.microsoft.com/#mscorlib/system/Collections/Concurrent/ConcurrentDictionary.cs)
+* [ConcurrentQueue](https://referencesource.microsoft.com/#mscorlib/System/Collections/Concurrent/ConcurrentQueue.cs)
+* [ConcurrentDictionary](https://referencesource.microsoft.com/#mscorlib/system/Collections/Concurrent/ConcurrentDictionary.cs)
