@@ -1,6 +1,6 @@
 # Description
 
-Its a concurrent priotity list with 10 priotities-ranks and random tasks.
+It's a concurrent priority list with 10 priorities-ranks and random tasks.
 
 ## Commands
 
@@ -9,7 +9,7 @@ Its a concurrent priotity list with 10 priotities-ranks and random tasks.
 * kill {WorkerId} - Exit a worker thread with the id 
 * killAll - Exit all worker threads 
 * assT {WorkerId} {Taskdifficult} {X} {Y} - Assigne a task to a worker 
-* addT {TaskType} {Taskdifficult} {Priority} {X} {Y} - Adds a task to the list 
+* addT {TaskType} {Taskdifficult} {priority} {X} {Y} - Adds a task to the list 
 * lt - lists all task types 
 * sp {TaskType} {number from 0-9} - sets the priority of a task type 
 * ww {WorkerId} - Activate the logging of a worker 
